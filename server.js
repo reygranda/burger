@@ -1,5 +1,5 @@
-const connection = require("./config/connection.js")
-var routes = require("./controllers/burgers_controller.js");
+const connection = require("./config/connection")
+var routes = require("./controllers/burgers_controllers");
 var express = require('express');
 var exphbs  = require('express-handlebars');
 const bodyParser = require("body-parser");
